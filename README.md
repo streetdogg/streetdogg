@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TD
     languages["C, C++, Python"] <--> cpu["ARM (v8 A, M, R), RISC-V, DSP"]
     cpu <-->os["baremetal, lk, freeRTOS, linux"]
     os <--> hw["HDLs (verilog, system verilog)"]
